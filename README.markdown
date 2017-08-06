@@ -1,19 +1,19 @@
-vim-colemak
+vim-dvorak
 ===========
 
-Colemak key mappings for Vim. Heavily trimmed and modified version of [Shai Coleman's configuration](http://colemak.com/pub/vim/colemak.vim).
+Dvorak key mappings for Vim. Heavily trimmed and modified version of [Shai Coleman's configuration](http://colemak.com/pub/vim/colemak.vim).
 
 Install
 -------
 
 1. Use [vim-plug](https://github.com/junegunn/vim-plug).
-2. Add to `.vimrc`: `Plug 'jooize/vim-colemak'`
+2. Add to `.vimrc`: `Plug 'agentlewis/vim-dvorak'`
 3. Run `vim +PlugInstall`
-4. You probably want to load vim-colemak last. Reload the plugin at the bottom of your Vim configuration.
+4. You probably want to load vim-dvorak last. Reload the plugin at the bottom of your Vim configuration.
 
     ```
-    " Reload vim-colemak to remap any overridden keys
-    silent! source "$HOME/.vim/bundle/vim-colemak/plugin/colemak.vim"
+    " Reload vim-dvorak to remap any overridden keys
+    silent! source "$HOME/.vim/bundle/vim-dvorak/plugin/dvorak.vim"
     ```
 
     *Note: You might be using `~/.vim/plugged`.*
@@ -22,6 +22,8 @@ Install
 
 Key mappings
 ------------
+
+//Todo: update key bindings
 
 ```
 Colemak layout:                  |                 QWERTY layout:
@@ -92,10 +94,12 @@ Legend:
 Issues
 ------
 
+//Todo: check issues
+
 ### [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive) keymap collision
 
     " Fix for colemak.vim keymap collision. tpope/vim-fugitive's maps y<C-G>
-    " and colemak.vim maps 'y' to 'w' (word). In combination this stalls 'y'
+    " and dvorak.vim maps 'y' to 'w' (word). In combination this stalls 'y'
     " because Vim must wait to see if the user wants to press <C-G> as well.
     augroup RemoveFugitiveMappingForColemak
         autocmd!
@@ -107,9 +111,9 @@ Changes
 
 ### 2016–03–06
 
-- [Restore wrapped line behavior to Vim default (e.g. n = gj is now n = j)](https://github.com/jooize/vim-colemak/commit/6882195551f1025e72f352811ea7b331bc73b32e)
-- [Remove turbo navigation (HNEI are now unmapped)](https://github.com/jooize/vim-colemak/commit/c057ed04075cab3f0a67c0fdc30c9d2f35621eff)
-- [Add missing mapping for reselecting last visual selection (ga = gv)](https://github.com/jooize/vim-colemak/commit/5167bbf4c411fd765833c97bfc078bed53cc995e)
+- [Restore wrapped line behavior to Vim default (e.g. n = gj is now n = j)](https://github.com/jooize/vim-dvorak/commit/6882195551f1025e72f352811ea7b331bc73b32e)
+- [Remove turbo navigation (HNEI are now unmapped)](https://github.com/jooize/vim-dvorak/commit/c057ed04075cab3f0a67c0fdc30c9d2f35621eff)
+- [Add missing mapping for reselecting last visual selection (ga = gv)](https://github.com/jooize/vim-dvorak/commit/5167bbf4c411fd765833c97bfc078bed53cc995e)
 
 #### Restore turbo navigation
 
@@ -125,4 +129,4 @@ Add the following to your `.vimrc`:
 " }}}
 ```
 
-I removed turbo navigation since I felt it doesn't suit as default Vim mappings, which also frees up the keys for custom uses. I'm considering making it an option. [Discuss!](https://github.com/jooize/vim-colemak/issues/4)
+I removed turbo navigation since I felt it doesn't suit as default Vim mappings, which also frees up the keys for custom uses. I'm considering making it an option. [Discuss!](https://github.com/jooize/vim-dvorak/issues/4)
