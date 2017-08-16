@@ -22,10 +22,10 @@
     " r/R = forward word/WORD
     nnoremap g b|xnoremap g b|onoremap g b|
     nnoremap G B|xnoremap G B|onoremap G B|
-    nnoremap r e|xnoremap r e|onoremap r e|
-    nnoremap R E|xnoremap R E|onoremap R E|
-    nnoremap l w|xnoremap l w|onoremap l w|
-    nnoremap L W|xnoremap L W|onoremap L W|
+    nnoremap r w|xnoremap r w|onoremap r w|
+    nnoremap R W|xnoremap R W|onoremap R W| 
+    nnoremap l e|xnoremap l e|onoremap l e|
+    nnoremap L E|xnoremap L E|onoremap L E|
     cnoremap <C-G> <C-Left>
     cnoremap <C-R> <C-Right>
 " }}}
