@@ -22,10 +22,10 @@
     " r/R = forward word/WORD
     nnoremap g b|xnoremap g b|onoremap g b|
     nnoremap G B|xnoremap G B|onoremap G B|
-    nnoremap c e|xnoremap c e|onoremap c e|
-    nnoremap C E|xnoremap C E|onoremap C E|
-    nnoremap r w|xnoremap r w|onoremap r w|
-    nnoremap R W|xnoremap R W|onoremap R W|
+    nnoremap r e|xnoremap r e|onoremap r e|
+    nnoremap R E|xnoremap R E|onoremap R E|
+    nnoremap l w|xnoremap l w|onoremap l w|
+    nnoremap L W|xnoremap L W|onoremap L W|
     cnoremap <C-G> <C-Left>
     cnoremap <C-R> <C-Right>
 " }}}
@@ -56,8 +56,8 @@
     nnoremap z u|xnoremap z :<C-U>undo<CR>|
     nnoremap gz U|xnoremap gz :<C-U>undo<CR>|
     nnoremap Z <C-R>|xnoremap Z :<C-U>redo<CR>|
-    nnoremap l r|xnoremap l r|onoremap l r|
-    nnoremap L R|xnoremap L R|anoremap L R|
+    nnoremap c r|xnoremap c r|onoremap c r|
+    nnoremap C R|xnoremap C R|anoremap C R|
 " }}}
 " Visual mode {{{
     " Make insert/add work also in visual line mode like in visual block mode
