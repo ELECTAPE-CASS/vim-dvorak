@@ -57,7 +57,7 @@
     nnoremap gz U|xnoremap gz :<C-U>undo<CR>|
     nnoremap Z <C-R>|xnoremap Z :<C-U>redo<CR>|
     nnoremap c r|xnoremap c r|onoremap c r|
-    nnoremap C R|xnoremap C R|anoremap C R|
+    nnoremap C R|xnoremap C R|onoremap C R|
 " }}}
 " Visual mode {{{
     " Make insert/add work also in visual line mode like in visual block mode
