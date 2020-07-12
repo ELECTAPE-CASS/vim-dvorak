@@ -26,8 +26,8 @@ Key mappings
 //Todo: update key bindings
 
 ```
-Colemak layout:                  |                 QWERTY layout:
-`12345 67890-=     Move around:  |  (instead of)   `12345 67890-=
+Dvorak layout:                  |                 QWERTY layout:
+`12345 67890[]     Move around:  |  (instead of)   `12345 67890-=
  ',.py fgcrl/=\         n        |       k          qwert yuiop[]\
  aoeui dHTNS-         h   s      |     h   l        asdfg HJKL;'
  ;qjkx bmwvz            t        |       j          zxcvb nm,./
