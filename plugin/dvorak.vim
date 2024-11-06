@@ -2,6 +2,7 @@
 "   Original by Shai Coleman, 2008-04-21.  http://colemak.com/
 "   Modified by Esko, 2012-09-14.
 "   Modified by agentlewis, 2017-08-06
+"   Modified by ELECTAPE-CASS, 2024-11-05
 "
 "   Load dvorak.vim after all other Vim scripts.
 "
@@ -33,9 +34,11 @@
     nnoremap b g|xnoremap b g|onoremap b g|
     nnoremap B G|xnoremap B G|onoremap B G|
 " }}}
-" inSert/Replace/append (T) {{{
-    nnoremap e s|
-    nnoremap E S|
+" Operator await {{{
+    nnoremap e d| onoremap e d |
+    nnoremap E D| onoremap E D |
+    nnoremap . e| onoremap > E |
+    nnoremap , w| onoremap < W |
 " }}}
 " Change {{{
     nnoremap p c|xnoremap p c|
