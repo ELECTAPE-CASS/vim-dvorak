@@ -37,8 +37,10 @@
 " Operator await {{{
     nnoremap e d| onoremap e d |
     nnoremap E D| onoremap E D |
-    nnoremap . e| onoremap > E |
-    nnoremap , w| onoremap < W |
+    nnoremap . e| onoremap . e |
+    nnoremap > E| onoremap > E |
+    nnoremap , w| onoremap , w |
+    nnoremap < W| onoremap < W |
 " }}}
 " Change {{{
     nnoremap p c|xnoremap p c|
